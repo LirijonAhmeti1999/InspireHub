@@ -1,0 +1,263 @@
+/* general ----- */
+
+/* header ------ */
+.top-nav {
+  height: 26px;
+  background-color: #8452ff;
+}
+
+.navbar {
+  padding: 58px 0px 83px 0px;
+  background-color: transparent;
+}
+
+.nav-links ul li {
+  padding: 0 64px 0 0;
+}
+
+.nav-links ul .nav-item .nav-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #021255;
+  padding: 0;
+}
+
+.nav-social-icons a:first-child {
+  padding: 0 20px 0 0;
+}
+
+/* main */
+
+.top-section .main-title {
+  margin-bottom: 94px;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.main-title h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 97px;
+  color: #021255;
+}
+
+.main-title p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150.51%;
+  color: #626262;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 639px;
+}
+
+/* training-section */
+.training-section .main-title {
+  padding: 70px 0px;
+}
+
+.training-section .main-title h1 {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 67px;
+}
+
+.cards-wrapper {
+  width: 1153px;
+}
+
+.training-card {
+  width: 100%;
+  display: flex;
+  border-radius: 8px;
+  margin-bottom: 71px;
+}
+
+.training-card .avatar-info {
+  width: 459px;
+}
+
+.avatar-info .avatar-image {
+  width: 100%;
+}
+
+.avatar-info .avatar-detail {
+  padding: 21px 0px 41px 24px;
+  background-image: url("../images/bacgroundGrid.png");
+}
+
+.avatar-detail span {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #8452ff;
+}
+
+.avatar-detail h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #021255;
+  margin: 0;
+}
+
+.avatar-detail p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0 0 36px 0;
+  color: #021255;
+}
+
+.avatar-detail ul {
+  display: flex;
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+}
+
+.avatar-detail ul li {
+  padding: 0px 16px 0px 0px;
+}
+
+.training-detail {
+  width: 694px;
+  border-radius: 0px 8px 8px 0px;
+  padding: 31px 0px 42px 35px;
+  background-color: #021255;
+  color: #fff;
+}
+
+.training-detail h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 119.91%;
+  margin-bottom: 43px;
+}
+
+.training-detail p {
+  font-style: normal;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 48px;
+  border: 2px dashed #3d54b1;
+  border-radius: 6px;
+  width: fit-content;
+  padding: 10px 16px;
+}
+
+.training-detail ul {
+  padding: 0px 0px 0px 20px;
+  margin-bottom: 69px;
+}
+
+.training-detail ul li {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.button-wrapper .btn {
+  font-size: 18px;
+  padding: 10px 69px;
+  border: none;
+}
+
+.btn.btn-primary {
+  background-color: #29d197;
+  margin-right: 21px;
+}
+
+.btn.btn-secondary {
+  background-color: #8452ff;
+}
+
+/* contact section ------ */
+.contact-section {
+  margin: 132px 0px 132px 0px;
+  padding: 87px 63px 106px 63px;
+  background-image: url("../images/blurredGradient.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-info h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  color: #021255;
+}
+
+.contact-info ul {
+  margin: 50px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-info ul li {
+  padding: 0 0 16px 0;
+  text-decoration: none;
+}
+
+.contact-info ul li a {
+  color: #021255;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0 0 0 14px;
+  text-decoration: none;
+}
+
+.form-wrapper form input,
+textarea {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #9e9e9e;
+  margin-bottom: 28px;
+}
+
+.form-wrapper form button {
+  padding: 17px 18px;
+  font-size: 18px;
+  border: none;
+}
+
+/* footer */
+
+footer {
+  margin-bottom: 48px;
+}
+
+footer p {
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #9e9e9e;
+}
+
+.bottonDiv {
+  height: 28px;
+  background-color: #29d197;
+}
+/* media querys */
+
+@media only screen and (min-width: 990px) {
+  .container-fluid {
+    padding: 0 80px;
+  }
+}
