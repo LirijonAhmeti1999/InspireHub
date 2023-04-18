@@ -82,6 +82,7 @@
 
 .training-card .avatar-info {
   width: 459px;
+  background-color: #ededed;
 }
 
 .avatar-info .avatar-image {
@@ -133,6 +134,7 @@
 
 .training-detail {
   width: 694px;
+  /* height: 542px; */
   border-radius: 0px 8px 8px 0px;
   padding: 31px 0px 42px 35px;
   background-color: #021255;
@@ -144,15 +146,15 @@
   font-weight: 900;
   font-size: 50px;
   line-height: 119.91%;
-  margin-bottom: 43px;
+  margin-bottom: 33px;
 }
 
-.training-detail p {
+.training-detail .first-paragraph {
   font-style: normal;
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
-  margin-bottom: 48px;
+  margin-bottom: 38px;
   border: 2px dashed #3d54b1;
   border-radius: 6px;
   width: fit-content;
@@ -198,17 +200,24 @@
   font-weight: 900;
   font-size: 50px;
   color: #021255;
+  margin: 0;
 }
 
 .contact-info ul {
-  margin: 50px 0 0 0;
+  margin: 45px 0 0 0;
   padding: 0;
   list-style: none;
 }
 
 .contact-info ul li {
+  display: flex;
+  align-items: center;
   padding: 0 0 16px 0;
   text-decoration: none;
+}
+
+.contact-info ul li:last-child {
+  padding: 0;
 }
 
 .contact-info ul li a {
@@ -235,7 +244,96 @@ textarea {
   border: none;
 }
 
-/* footer */
+/* Modal ----------- */
+
+.modal-content {
+  background-image: url("../images/modalBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  position: relative;
+}
+
+.btn-close {
+  position: absolute;
+  top: 23px;
+  right: 22px;
+}
+
+.modal-header {
+  padding: 64px 69px 0px 62px;
+  border: none;
+}
+
+.modal-header h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  color: #021255;
+  margin-bottom: 33px;
+}
+
+.modal-header .first-paragraph {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: #021255;
+  padding: 10px 16px;
+}
+
+.modal-header .modal-header-box {
+  width: 100%;
+  border-bottom: 2px dashed #a7a7a7;
+  padding-bottom: 24px;
+}
+
+.modal-header .modal-header-box:last-child {
+  padding-top: 24px;
+}
+
+.modal-header .modal-header-box p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #021255;
+  margin: 0;
+}
+
+.modal-body {
+  border: none;
+}
+
+.modal-footer {
+  flex-direction: column;
+  align-items: start;
+  padding: 40px 0px 56px 62px;
+  border: none;
+}
+
+.modal-footer-content form .col-md-6 {
+  width: fit-content;
+  margin-bottom: 19px;
+}
+
+.modal-footer-content form label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #021456;
+}
+
+.modal-footer-content form input {
+  width: 308px;
+  height: 52px;
+}
+
+.modal-footer-content form .btn.btn-secondary {
+  width: fit-content;
+  margin-top: 14px;
+}
+/* Footer -----------*/
 
 footer {
   margin-bottom: 48px;
