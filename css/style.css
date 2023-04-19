@@ -427,7 +427,7 @@ textarea {
 .modal-header h1 {
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
+  font-size: clamp(2.0625rem, 1.3181rem + 3.4031vw, 4.5rem);
   color: #021255;
   margin-bottom: 33px;
 }
