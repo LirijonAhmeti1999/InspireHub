@@ -659,6 +659,11 @@ footer .nav-social-icons a:first-child {
 }
 
 @media only screen and (max-width: 786px) {
+  .modal-instructor-wrapper .instructor-image img {
+    width: 125px;
+    height: 127px;
+  }
+
   header.active {
     background-color: #8452ff;
   }
@@ -819,6 +824,10 @@ footer .nav-social-icons a:first-child {
 }
 
 @media only screen and (max-width: 576px) {
+  .modal-instructor-wrapper {
+    padding: 68px 0px 3px 0px;
+  }
+
   .modal.show .modal-dialog {
     max-width: 100%;
   }
