@@ -636,6 +636,10 @@ footer .nav-social-icons a:first-child {
   .modal-body {
     padding: 22px;
   }
+
+  .modal-footer {
+    padding: 40px 0px 47px 22px;
+  }
 }
 
 @media only screen and (min-width: 990px) {
