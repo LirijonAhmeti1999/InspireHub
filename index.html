@@ -16,14 +16,17 @@
       <header class="" id="top-header">
         <div class="container-fluid">
           <div class="headerWrapper">
-            <a class="logo" href="/">
+            <a class="logo d-none d-md-inline" href="/">
               <img src="images/Iogo.png" alt="" />
+            </a>
+            <a class="logo d-inline d-md-none" href="/">
+              <img src="images/mobileLogo.png" alt="" />
             </a>
             <nav>
               <ul>
-                <li><a class="" href="/">HOME</a></li>
-                <li><a class="" href="/">TRAININGS</a></li>
-                <li><a class="" href="/">CONTACT</a></li>
+                <li><a onclick="onMenuClick()" class="" href="#top-section">HOME</a></li>
+                <li><a onclick="onMenuClick()" class="" href="#training-section">TRAININGS</a></li>
+                <li><a onclick="onMenuClick()" class="" href="#contact-section">CONTACT</a></li>
                 <li>
                   <a
                     class="social-icon d-none d-md-inline"
@@ -68,7 +71,7 @@
       </header>
     </header>
     <main class="container-fluid">
-      <section class="top-section d-flex flex-column align-items-center">
+      <section id="top-section" class="top-section d-flex flex-column align-items-center">
         <div class="main-title">
           <h1>Learn what you love!</h1>
           <p>
@@ -84,7 +87,7 @@
           />
         </div>
       </section>
-      <section class="training-section d-flex flex-column align-items-center">
+      <section id="training-section" class="training-section d-flex flex-column align-items-center">
         <div class="main-title">
           <h1>Trajnimet</h1>
           <p>
@@ -690,7 +693,7 @@
           </div>
         </div>
       </section>
-      <section class="contact-section">
+      <section id="contact-section" class="contact-section">
         <div class="row">
           <div class="col-12 col-md-5">
             <div class="contact-info">
